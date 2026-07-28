@@ -12,5 +12,7 @@ app.include_router(hd_router, prefix="/hd")
 def home():
     return {
         "name": "Zech AI Server",
-        "status": "online"
+        "version": "1.0.0",
+        "status": "online",
+        "author": "ZechZero"
     }
